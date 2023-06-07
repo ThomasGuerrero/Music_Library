@@ -37,7 +37,7 @@ function App() {
             {message}
             <Router>
               <Routes>
-                <Route exact path='/' element={
+                <Route path='/' element={
                   <>
                     <SearchBar handleSearch={handleSearch} />
                     <Gallery data={data} />
